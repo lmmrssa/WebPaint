@@ -1,0 +1,161 @@
+body {
+	width: 95%;
+	padding: 0;
+	margin: 10px auto;
+}
+header {
+	text-align: center;
+}
+footer {
+	width: inherit;
+	font-size: 10px;
+	position: fixed;
+	bottom: 0;
+}
+canvas {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+}
+li {
+	list-style: none;
+}
+.floatLeft {
+	float: left;
+}
+.floatRight {
+	float: right;
+}
+.clearFix {
+	clear:both;
+}
+.activeLayer {
+	color: red;
+}
+.container.box {
+	border: 1px solid #0A988C;
+}
+.containerHeader {
+	padding: 8px 10px 2px;
+	border-bottom: 1px solid rgb(238, 238, 238);
+	text-align: center;
+	clear: both;
+	background: #26C0B3;
+	font-style: italic;
+	color: #fff;
+}
+.containerBody {
+	padding: 8px 5px 2px;
+	clear: both;
+}
+.containerFooter {
+	padding: 8px 10px 2px;
+	clear: both;
+}
+
+header h1 {
+	color: #E74E4B;
+	background: -webkit-gradient( linear, right bottom, right top, color-stop(0, #F50823), color-stop(0.49, #24889C), color-stop(0.98, #BDB9BA));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: initial;
+
+}
+#container {
+	position: relative;
+	/*margin: 10px;*/
+}
+
+canvas.viewLayer {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+}
+canvas#drawPan {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	border: 1px solid #000;
+}
+#tool_container, #layer_container {
+	width: 200px;
+	clear: both;
+	margin-bottom: 10px;
+}
+#tool_container .containerHeader {
+	background: url('../img/tools.png') no-repeat #26C0B3;
+	background-position: 5px;
+}
+#tool_container span.tools {
+	float:left;
+	width:30px;
+	height:30px;
+	margin:2px;
+	border: 1px solid #ccc;
+	
+}
+#tool_container span.tools img {
+	width: 30px;
+	height: 30px;
+}
+.tools {
+	cursor: pointer;
+}
+#layer_container .containerHeader {
+	background: url('../img/layers.png') no-repeat #26C0B3;
+	background-position: 5px;
+}
+img#newLayer {
+	width: 20px;
+	height: 20px;
+}
+#layerList {
+	width: 95%;
+}
+.layer_list {
+	width: 100%;
+	float: left;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.layer_list:last-child {
+	border-bottom: none;
+}
+.layerAction span {
+	margin-right: 3px;
+	cursor: pointer;
+	background-size: 100%;
+}
+.chooseLayer {
+	width: 20px;
+	height: 20px;
+	background: url('../img/layer_choose.png') no-repeat;
+}
+.toggleLayer {
+	width: 20px;
+	height: 20px;
+	background: url('../img/visible.png') no-repeat #ADF5E8;
+}
+.deleteLayer {
+	width: 20px;
+	height: 20px;	
+	background: url('../img/layer_delete.png') no-repeat;
+}
+#statusUpdate {
+	font-size: 10px;
+	position: absolute;
+	background: #BFF7D6;
+	border: 1px solid #8ED2AA;
+	display: none;
+	padding: 3px 3px 3px 3px;	
+}
+#statusUpdate span {
+	padding-right: 2px;
+	padding-left: 2px;
+	margin-right: 2px;
+	background: #F2716A;
+}
+#statusUpdate span:last-child {
+	margin-right: 0px;
+}
