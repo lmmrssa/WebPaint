@@ -1,0 +1,6 @@
+{
+  "name": "Web Paint",
+  "tagline": "Paint program that can be run online.",
+  "body": "### Welcome to Web Paint Pages.\r\nWeb Paint is the simple web based application that gives the possibility to play with the paint program. Wanna play around then please visit the site [here] (http://demo.mlaxman.com.np/paint.html)\r\n\r\n### Features of Web Paint\r\n* Draw different shapes *circle*, *line*, *rectangle*\r\n* Perform transformations *rotate*, *scale*\r\n* Create different layers to perform transformation. Transformation will affect only shapes on active layer\r\n* Visibility of layers\r\n\r\n### Authors and Contributors\r\nThe author of this application is Laxman Maharjan (@lmmrssa).\r\n\r\n### Support or Contact\r\nIf you feel any feature to be added to this application or any suggestion for it. Then please feel free to contact on [email@mlaxman.com.np] (mailto:email@mlaxman.com.np)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
